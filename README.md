@@ -1,4 +1,6 @@
 # DataStructures-And-Algorithm
+자료구조와 알고리즘을 뽀개보자.
+
 ## 자료구조
 ### Array
 ### Set

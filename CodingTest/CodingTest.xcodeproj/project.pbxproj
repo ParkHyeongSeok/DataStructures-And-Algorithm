@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		24211FB026C49F9E00B7A4BF /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24211FAF26C49F9E00B7A4BF /* BinarySearch.swift */; };
 		24211FB326C5ECAF00B7A4BF /* DynamicProgramming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24211FB226C5ECAF00B7A4BF /* DynamicProgramming.swift */; };
+		246C84712792BED50026606E /* DFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 246C84702792BED50026606E /* DFS.swift */; };
 		24BDD1A626CB3FFC00535F0A /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDD1A526CB3FFC00535F0A /* LinkedList.swift */; };
 		24BDD1A926CB4AF200535F0A /* LinkedList2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDD1A826CB4AF200535F0A /* LinkedList2.swift */; };
 		24BDD1AD26CB670600535F0A /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BDD1AC26CB670600535F0A /* BinarySearchTree.swift */; };
@@ -18,8 +19,6 @@
 		24DCB01C26C0B1F0001510D0 /* Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCB01B26C0B1F0001510D0 /* Sort.swift */; };
 		24DCB02526C0B786001510D0 /* Greedy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCB02426C0B786001510D0 /* Greedy.swift */; };
 		24DCB02826C0CAAB001510D0 /* implementation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCB02726C0CAAB001510D0 /* implementation.swift */; };
-		24DCB02B26C1F2DE001510D0 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DCB02A26C1F2DE001510D0 /* Search.swift */; };
-		24EF53E927918E20006DAF76 /* QueueExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF53E827918E20006DAF76 /* QueueExample.swift */; };
 		24EF53EC27919224006DAF76 /* BFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EF53EB27919224006DAF76 /* BFS.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +37,7 @@
 /* Begin PBXFileReference section */
 		24211FAF26C49F9E00B7A4BF /* BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
 		24211FB226C5ECAF00B7A4BF /* DynamicProgramming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicProgramming.swift; sourceTree = "<group>"; };
+		246C84702792BED50026606E /* DFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFS.swift; sourceTree = "<group>"; };
 		24BDD1A526CB3FFC00535F0A /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
 		24BDD1A826CB4AF200535F0A /* LinkedList2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList2.swift; sourceTree = "<group>"; };
 		24BDD1AC26CB670600535F0A /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
@@ -48,8 +48,6 @@
 		24DCB01B26C0B1F0001510D0 /* Sort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sort.swift; sourceTree = "<group>"; };
 		24DCB02426C0B786001510D0 /* Greedy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Greedy.swift; sourceTree = "<group>"; };
 		24DCB02726C0CAAB001510D0 /* implementation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = implementation.swift; sourceTree = "<group>"; };
-		24DCB02A26C1F2DE001510D0 /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
-		24EF53E827918E20006DAF76 /* QueueExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueExample.swift; sourceTree = "<group>"; };
 		24EF53EB27919224006DAF76 /* BFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BFS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,12 +92,10 @@
 			isa = PBXGroup;
 			children = (
 				24DCB01526C0AF14001510D0 /* Queue.swift */,
-				24EF53EB27919224006DAF76 /* BFS.swift */,
 				24DCB01826C0AF95001510D0 /* Stack.swift */,
 				24BDD1A526CB3FFC00535F0A /* LinkedList.swift */,
 				24BDD1A826CB4AF200535F0A /* LinkedList2.swift */,
 				24BDD1AC26CB670600535F0A /* BinarySearchTree.swift */,
-				24EF53E827918E20006DAF76 /* QueueExample.swift */,
 			);
 			path = "Data Structure";
 			sourceTree = "<group>";
@@ -108,11 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				24DCB01B26C0B1F0001510D0 /* Sort.swift */,
+				24EF53EB27919224006DAF76 /* BFS.swift */,
+				246C84702792BED50026606E /* DFS.swift */,
 				24DCB02426C0B786001510D0 /* Greedy.swift */,
-				24DCB02726C0CAAB001510D0 /* implementation.swift */,
-				24DCB02A26C1F2DE001510D0 /* Search.swift */,
-				24211FAF26C49F9E00B7A4BF /* BinarySearch.swift */,
 				24211FB226C5ECAF00B7A4BF /* DynamicProgramming.swift */,
+				24DCB02726C0CAAB001510D0 /* implementation.swift */,
+				24211FAF26C49F9E00B7A4BF /* BinarySearch.swift */,
 			);
 			path = Algorithm;
 			sourceTree = "<group>";
@@ -176,17 +173,16 @@
 			files = (
 				24211FB026C49F9E00B7A4BF /* BinarySearch.swift in Sources */,
 				24211FB326C5ECAF00B7A4BF /* DynamicProgramming.swift in Sources */,
-				24EF53E927918E20006DAF76 /* QueueExample.swift in Sources */,
 				24BDD1A626CB3FFC00535F0A /* LinkedList.swift in Sources */,
 				24DCB00E26C0A2FC001510D0 /* main.swift in Sources */,
 				24DCB01C26C0B1F0001510D0 /* Sort.swift in Sources */,
+				246C84712792BED50026606E /* DFS.swift in Sources */,
 				24DCB01926C0AF95001510D0 /* Stack.swift in Sources */,
 				24DCB02826C0CAAB001510D0 /* implementation.swift in Sources */,
 				24BDD1A926CB4AF200535F0A /* LinkedList2.swift in Sources */,
 				24BDD1AD26CB670600535F0A /* BinarySearchTree.swift in Sources */,
 				24DCB01626C0AF14001510D0 /* Queue.swift in Sources */,
 				24DCB02526C0B786001510D0 /* Greedy.swift in Sources */,
-				24DCB02B26C1F2DE001510D0 /* Search.swift in Sources */,
 				24EF53EC27919224006DAF76 /* BFS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
